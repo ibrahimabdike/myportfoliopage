@@ -1,28 +1,19 @@
-.container{
-  margin-left: 80px;
-  border: 2px;
-}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
 
-.column {
-  float: left;
-  width: 33.33%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 
 
-
-.midimages{
-  float: left;
-}
-
-
-.top{
-  background-color: grey;
+body {
+    font-family: 'Almendra SC';font-size: 22px;
 }
